@@ -7,7 +7,10 @@ We believe that this project will teach us about the fundamentals of how blockch
 
 # Team  Members
 ***
-* [(201911033)----Tan Karabudak](https://github.com/R3TR05PH3R3)
-* [(201811055)----İdil Taşdan](https://github.com/Idiltsdn)
-* [(201811004)----Eylül Aktuy](https://github.com/eylulaktuy)
-* [(201811019)----Fatma Buse Çinkaya](https://github.com/busecinkaya)
+* [Tan Karabudak](https://github.com/R3TR05PH3R3)-201911033
+* [İdil Taşdan](https://github.com/Idiltsdn)-201811055
+* [Eylül Aktuy](https://github.com/eylulaktuy)-201811004
+* [Fatma Buse Çinkaya](https://github.com/busecinkaya)-201811019
+
+***
+* [Project Work Plan](https://docs.google.com/spreadsheets/d/1qrYZjfnABvuExdBugc5T7fVvOBD0ewJ8/edit?usp=sharing&ouid=117952843161145054741&rtpof=true&sd=true)
