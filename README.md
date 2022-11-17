@@ -1,4 +1,4 @@
-Our project aims on creating a new Cryptocurrency, A Crypto wallet web application, and our own NFTs (if possible, tradeable with our own tokens).
+Our project aims on creating a new Crypto-currency, A Crypto wallet web application, and our own NFTs (if possible, tradeable with our own tokens).
 We believe that this project will teach us about the fundamentals of how blockchains and cryptocurrencies work and how these new technologies are developed. 
 
 # Advisor
