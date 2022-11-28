@@ -16,4 +16,4 @@ We believe that this project will teach us about the fundamentals of how blockch
 # Contents
 ***
 * [Project Web Page](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/wiki/Project-Web-Page)
-* [Project Work Plan](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/wiki/Project-Work-Plan)
+
