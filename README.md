@@ -13,8 +13,6 @@ We believe that this project will teach us about the fundamentals of how blockch
 * [Tan Karabudak](https://github.com/R3TR05PH3R3)-201911033
 
 
-# Contents
-***
-* [Project Web Page](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/wiki/Project-Web-Page)
+
 
 
