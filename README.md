@@ -10,7 +10,7 @@ We believe that this project will teach us about the fundamentals of how blockch
 * [Eylül Aktuy](https://github.com/eylulaktuy)-201811004
 * [Fatma Buse Çinkaya](https://github.com/busecinkaya)-201811019
 * [İdil Taşdan](https://github.com/Idiltsdn)-201811055
-* [Tan Karabudak](https://github.com/R3TR05PH3R3)-201911033
+
 
 
 
