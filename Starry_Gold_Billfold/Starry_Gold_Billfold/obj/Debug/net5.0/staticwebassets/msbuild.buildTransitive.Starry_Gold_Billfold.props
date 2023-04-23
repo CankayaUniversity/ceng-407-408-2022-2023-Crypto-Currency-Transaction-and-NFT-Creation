@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Starry_Gold_Billfold.props" />
+</Project>
