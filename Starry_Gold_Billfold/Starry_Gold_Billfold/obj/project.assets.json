@@ -7225,23 +7225,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\asus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\\Starry_Gold_Billfold\\Starry_Gold_Billfold\\Starry_Gold_Billfold.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\\Starry_Gold_Billfold\\Starry_Gold_Billfold\\Starry_Gold_Billfold.csproj",
       "projectName": "Starry_Gold_Billfold",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\\Starry_Gold_Billfold\\Starry_Gold_Billfold\\Starry_Gold_Billfold.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\\Starry_Gold_Billfold\\Starry_Gold_Billfold\\obj\\",
+      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\\Starry_Gold_Billfold\\Starry_Gold_Billfold\\Starry_Gold_Billfold.csproj",
+      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\\Starry_Gold_Billfold\\Starry_Gold_Billfold\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7250,6 +7250,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7304,7 +7305,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
