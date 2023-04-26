@@ -1,26 +1,33 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Client;
+using ConsoleApp3;
+using DB;
 
-namespace Starry_Gold_Billfold
+namespace Main
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main()
         {
-            CreateHostBuilder(args).Build().Run();
-        }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+            // Initilize db
+            DbAccess.Initialize();
+
+            /**
+             * remove all record in all table
+             * uncomment this if you want
+            **/
+            // DbAccess.ClearDB();
+
+            // Make blockchain
+            _ = new Blockchain();
+
+            // show menu
+            Menu.DisplayMenu();
+        }
     }
+
+
+
 }
