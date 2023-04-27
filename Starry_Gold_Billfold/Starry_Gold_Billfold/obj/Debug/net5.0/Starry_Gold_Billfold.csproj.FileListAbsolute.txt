@@ -419,3 +419,4 @@ C:\Users\asus\Documents\GitHub\ceng-407-408-2022-2023-Crypto-Currency-Transactio
 C:\Users\asus\Documents\GitHub\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\Starry_Gold_Billfold\Starry_Gold_Billfold\obj\Debug\net5.0\Starry_Gold_Billfold.genruntimeconfig.cache
 C:\Users\asus\Documents\GitHub\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\Starry_Gold_Billfold\Starry_Gold_Billfold\obj\Debug\net5.0\ref\Starry_Gold_Billfold.dll
 C:\Users\asus\Documents\GitHub\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\Starry_Gold_Billfold\Starry_Gold_Billfold\obj\Debug\net5.0\Razor\Pages\_Starry_Gold_Billfold_Layout.cshtml.g.cs
+C:\Users\user\Documents\GitHub\ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation\Starry_Gold_Billfold\Starry_Gold_Billfold\obj\Debug\net5.0\Razor\Pages\_Starry_Gold_Billfold_Layout.cshtml.g.cs
