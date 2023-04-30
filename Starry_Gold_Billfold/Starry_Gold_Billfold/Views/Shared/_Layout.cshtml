@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Starry Gold Billfold</title>
+    <title >@ViewData["Title"] - Starry Gold Billfold</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/Starry_Gold_Billfold.styles.css" asp-append-version="true" />
@@ -20,9 +20,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partialname ="_Starry_Gold_Billfold_Layout.cshtml">
-                </div>
+                @*<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partialname ="_Starry_Gold_Billfold_Layout.cshtml"></partialname>
+                </div>*@
 
 
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -34,7 +34,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Create">Register</a>
                         </li>*@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            <a  class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
                         </li>
                         @{
                             if(User?.Identity?.IsAuthenticated?? false)
