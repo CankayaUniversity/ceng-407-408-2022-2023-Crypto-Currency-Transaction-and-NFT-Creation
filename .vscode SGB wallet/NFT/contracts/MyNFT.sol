@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-<<<<<<< HEAD
 pragma solidity >=0.5.0 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -29,6 +28,3 @@ contract MyNFT is ERC721URIStorage, Ownable {
         return newItemId;
     }
 }
-=======
-pragma solidity >=0.5.0 <0.9.0;
->>>>>>> fbb4a88156a64a850f0809c097efd281797498f7
