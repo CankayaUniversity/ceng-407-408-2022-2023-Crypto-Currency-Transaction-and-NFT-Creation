@@ -42,9 +42,8 @@ const Signup = () => {
 			<div className={styles.signup_form_container}>
 				<div className={styles.left}>
 		        
-				<h3 className={styles.white_text}>STARRY GOLD BILLFOLD</h3>
-				<img src={logo} alt="Logo" className={styles.logo} />
-				
+				<h3 className={styles.white_textt}>STARRY GOLD BILLFOLD</h3>
+				<img src={logo} alt="Logo" className={styles.logo} />				
 					<h1>Welcome Back</h1>
 					<Link to="/login">
 						<button type="button" className={styles.white_btn}>
