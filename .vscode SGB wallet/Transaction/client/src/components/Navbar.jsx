@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
   <li>
-    <a href="http://localhost:3000/" className=" py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-black">
+    <a href="http://localhost:3000/" className=" py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-black font-bold text-lg">
       STARRY GOLD BILLFOLD
     </a>
   </li>
