@@ -77,3 +77,12 @@ margin-right: 20px;
 		background-color: #f0eef4;
 		color: rgb(0, 0, 0);
 }
+
+
+.footer_image {
+	width: 12%;
+	height: auto;
+	display: flex;
+  justify-content: center;
+  }
+  
