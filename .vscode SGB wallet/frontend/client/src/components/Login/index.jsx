@@ -63,7 +63,7 @@ const Login = () => {
 				<div className={styles.right}>
 				<h3 className={styles.white_text}>STARRY GOLD BILLFOLD</h3>
                 <img src={logo} alt="Logo" className={styles.logo} />
-					<h1>New Here ?</h1>
+					<h1>New Here?</h1>
 					<Link to="/signup">
 						<button type="button" className={styles.white_btn}>
 							Sign Up
