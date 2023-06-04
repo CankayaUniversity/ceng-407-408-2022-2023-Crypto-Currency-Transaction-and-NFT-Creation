@@ -3,7 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
-//import logo from "./images/logo.png";
+import logo from "./images/logo.png";
 
 const Signup = () => {
 	const [data, setData] = useState({
@@ -41,11 +41,14 @@ const Signup = () => {
 		<div className={styles.signup_container}>
 			<div className={styles.signup_form_container}>
 				<div className={styles.left}>
+		        
+				<h3 className={styles.white_text}>STARRY GOLD BILLFOLD</h3>
+				<img src={logo} alt="Logo" className={styles.logo} />
 				
 					<h1>Welcome Back</h1>
 					<Link to="/login">
 						<button type="button" className={styles.white_btn}>
-							Sing in
+							Sign in
 						</button>
 					</Link>
 				</div>
@@ -90,7 +93,7 @@ const Signup = () => {
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
 						<button type="submit" className={styles.green_btn}>
-							Sing Up
+							Sign Up
 						</button>
 					</form>
 				</div>
