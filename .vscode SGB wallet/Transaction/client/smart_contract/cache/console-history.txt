@@ -1,0 +1,9 @@
+INF.transfer(ITS.address,bigInt)
+bigInt=BigInt(750000000*10**18)
+clear
+quit
+quite
+que
+ITS=await InfiniumTokenSale.deployed()
+INF=await Infinium.deployed()
+I = await Infinium.deployed()
