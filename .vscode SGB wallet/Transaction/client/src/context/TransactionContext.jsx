@@ -2,12 +2,6 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import { contractABI,contractAddress } from "../utils/constants";
 
-// Added the INFToken contract to the contractABI variable.
-//import { infTokenAddress } from "../utils/constants";
-
-// Added the INFToken contract to the contractAddress variable.
-//const contractAddress = infTokenAddress.address;
-
 export const TransactionContext = React.createContext();
 
 const { ethereum } = window;
@@ -109,7 +103,7 @@ export const TransactionsProvider = ({ children }) => {
 
   const sendTransaction = async () => {
     try {
-      if (ethereum) {
+      if (window.ethereum) {
         const { addressTo, amount, keyword, message } = formData;
         const transactionsContract = createEthereumContract();
         const parsedAmount = ethers.utils.parseUnits(amount, 18);

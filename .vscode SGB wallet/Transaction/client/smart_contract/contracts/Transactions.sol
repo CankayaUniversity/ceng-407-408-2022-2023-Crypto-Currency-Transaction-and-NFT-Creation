@@ -3,19 +3,15 @@
 pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import {infTokenAddress} from "./client/src/utils/constants";
 import "/.vscode/transaction/client/smart_contract/contracts/INFToken.sol";
+
 
 contract Transactions {
 
-    // The INF token contract.
-    INFToken public INFTokenContract;
-    
+    address private constant INFTokenAddress = 0x6BF313c74474BDc182b34b2EF95c4E0D0Aa2f6b7;
+
     mapping(address => uint256) transactionCount;
     
-    constructor(address infTokenAddress){
-        INFTokenContract = INFToken(infTokenAddress);
-    }
     event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
   
     struct TransferStruct {
@@ -35,21 +31,20 @@ contract Transactions {
         require(amount > 0);
         require(reciver != address(0));
 
-        // Check if the sender has enough INF tokens to send.
-        require(INFTokenContract.balanceOf(msg.sender) >= amount);
+        
+        require(balanceOf(msg.sender) >= amount);
 
         // Update the balance of the sender.
-        INFTokenContract.balanceOf(msg.sender) -= amount;
+        balanceOf(msg.sender) -= amount;
 
         // Update the balance of the recipient.
-        INFTokenContract.balanceOf(recipient) += amount;
+        balanceOf(recipient) += amount;
 
         // Update the number of transactions sent by the sender.
         transactionCount[msg.sender] += 1;
 
-        // Emit a sendTransaction event.
-        //emit SendTransaction(msg.sender, recipient, amount);
-
+       
+         
         emit Transfer(msg.sender,receiver,amount, message, block.timestamp, keyword);
         return true;
     }
