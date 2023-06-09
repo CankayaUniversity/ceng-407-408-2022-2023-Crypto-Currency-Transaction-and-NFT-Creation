@@ -14,6 +14,9 @@ We believe that this project will teach us about the fundamentals of how blockch
 # Contents
 
 ***
+* [Project Presentation Ceng 408](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/blob/main/Ceng408_Presentation.pdf)
+* [Demo Video](https://www.youtube.com/watch?v=OZs5rrAAhwY&ab_channel=Buse%C3%87inkaya)
+* [Project Poster](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/blob/main/A2-Afis-SGB.jpg)
 * [Project Web Page ](https://aktuyeylul99.wixsite.com/cryptocurrproject)
 * [Project Work Plan Ceng 408 ](https://docs.google.com/spreadsheets/d/1Jea7nQpbi5798IWrYa8T8qFRUbJlW3_6ufi2kcimKf0/edit?pli=1#gid=0)
 * [Project Report Ceng 408](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/wiki/Project-Report(CENG-408))
@@ -25,6 +28,7 @@ We believe that this project will teach us about the fundamentals of how blockch
 * [Project Work Plan Ceng 407 ](https://docs.google.com/spreadsheets/d/1qrYZjfnABvuExdBugc5T7fVvOBD0ewJ8/edit#gid=352128082)
 * [SDD](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/wiki/Software-Design-Document-(SDD))
 * [SRS](https://github.com/CankayaUniversity/ceng-407-408-2022-2023-Crypto-Currency-Transaction-and-NFT-Creation/wiki/Software-Requirements-Specification-(SRS))
+
 
 
 
