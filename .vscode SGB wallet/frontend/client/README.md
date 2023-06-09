@@ -1,7 +1,7 @@
 ## Available Scripts
 
 To connect database: 
-(only one terminal should use for connection to db or you get a crash error)
+(only one terminal should be used for connection to db or you get a crash error)
 
 ### `cd server`
 ### `npm start`
